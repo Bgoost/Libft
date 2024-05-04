@@ -6,7 +6,7 @@
 #    By: crmanzan <crmanzan@student.42barcel>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/14 14:55:40 by crmanzan          #+#    #+#              #
-#    Updated: 2024/05/01 17:16:59 by crmanzan         ###   ########.fr        #
+#    Updated: 2024/05/04 18:30:32 by crmanzan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,8 @@ SRCS = 	ft_isalnum.c	ft_split.c		ft_strdup.c			ft_substr.c \
 SRCS_BONUS =		ft_lstadd_back.c	ft_lstaddd_front.c \
 					ft_lstclear.c 		ft_lstdelone.c \
 					ft_lstiter.c 		ft_lstlast.c \
-					ft_lstnew.c 		ft_lstsize.c
+					ft_lstnew.c 		ft_lstsize.c \
+					ft_lstmap.c
 
 OBJ = $(patsubst %.c,$(OBJ_DIR)%.o,$(SRCS))
 OBJ_BONUS = $(patsubst %.c,$(OBJ_DIR)%.o,$(SRCS_BONUS))

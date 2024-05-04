@@ -6,12 +6,13 @@
 /*   By: crmanzan <crmanzan@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 14:05:04 by crmanzan          #+#    #+#             */
-/*   Updated: 2023/09/21 15:24:22 by crmanzan         ###   ########.fr       */
+/*   Updated: 2024/05/04 20:53:38 by crmanzan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+//#include <stdio.h>
+//#include <string.h>
+#include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
